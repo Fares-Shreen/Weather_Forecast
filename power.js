@@ -2,7 +2,7 @@ let searchBtn = document.getElementById("exampleDataList");
 let btnSearch = document.getElementById("btnInput");
 async function getWeatherCondition(name) {
   let promise = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=5c2253b16ef14bec809132036250207&q=${name}&days=3`
+    `https://api.weatherapi.com/v1/forecast.json?key=5c2253b16ef14bec809132036250207&q=${name}&days=3`
   );
   let response = await promise.json();
   let locationData = response.location;
@@ -12,7 +12,7 @@ async function getWeatherCondition(name) {
 }
 async function getWeatherConditionOfUserLocation(lat, lon) {
   let promise = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=5c2253b16ef14bec809132036250207&q=${lat},${lon}&days=3`
+    `https://api.weatherapi.com/v1/forecast.json?key=5c2253b16ef14bec809132036250207&q=${lat},${lon}&days=3`
   );
   let response = await promise.json();
   let locationData = response.location;
