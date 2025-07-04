@@ -1,0 +1,124 @@
+:root{
+    --gray:#BBBFC8;
+}
+@font-face {
+    font-family:"myFont";
+    src: url(./font-family/Roboto-VariableFont_wdth\,wght.ttf);
+}
+body {
+  margin: 0;
+}
+.navCenter {
+  margin-left: 90px;
+}
+nav {
+  background-color: #1e202b;
+}
+
+.Home {
+  background-color: #1e202b;
+  background-image: url(./images/banner.png);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 70px 0;
+  height: 40vh;
+  width: 100%;
+}
+#exampleDataList{
+    background-color: #1e202b;
+    color: white;
+
+}
+ul .ItemHome a {
+  border: #009ad8 2px solid;
+  border-radius: 50px;
+}
+ul .ItemHome a span {
+  color: #009ad8;
+}
+
+.section2 {
+  background-color: #1e202b;
+  padding-bottom:100px ;
+
+}
+ul .Item a {
+  border: transparent 2px solid;
+  border-radius: 50px;
+  color: white;
+  transition-duration: 0.2s;
+}
+
+ul .Item a:hover {
+  border: #009ad8 2px solid;
+  border-radius: 50px;
+  color: #009ad8;
+}
+
+.card {
+  background-color: #1e202b;
+}
+
+footer {
+  background-color: #262936;
+}
+footer i {
+  font-size: 20px;
+  color: #009ad8;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 0px solid;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding-right: 15px;
+  transition-duration: 0.3s;
+}
+footer i:hover {
+  color: white;
+  background-color: #009ad8;
+}
+.sideHeaders{
+    background-color: #2D303D;
+}
+.sideBodys{
+    background-color: #323544;
+}
+.midHeader{
+    background-color: #222530;
+}
+.midBody{
+    background-color: #262936;
+}
+.card-title{
+    color:var(--gray) ;
+        font-size: 18px;
+}
+.card-header{
+    color:var(--gray) ;
+}
+.currentWeather{
+    font-size: 100px;
+    font-weight: 900;
+    font-family:"myFont";
+    text-align:start;
+}
+.weatherStatus{
+    color: #009ad8;
+}
+.currentWeatherIcon{
+    color:#8C8D92 ;
+    font-size: 18px;
+}
+.nextDayTemp{
+    font-weight: 900;
+    font-family: "myFont";
+    font-size: 25px;
+}
+.nextDayStatus{
+    color: #009ad8;
+}
+.card-body h6{
+    color: var(--gray);
+}
